@@ -85,23 +85,32 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* changed benefits-lead into lead */
-.lead {
+/* put .lead, .brand, and .cost into line */
+.lead, .brand, .cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/* changed benefits-brand into brand */
-.brand {
-    margin-bottom: 32px;
-    color: #ffffff;
+    /* changed benefits-lead into lead */
+    /* .lead {
+        margin-bottom: 32px;
+        color: #ffffff;
+    } */
+    /* changed benefits-brand into brand */
+    /* .brand {
+        margin-bottom: 32px;
+        color: #ffffff;
+    } */
+    /* changed benefits-cost into cost */
+    /* .cost {
+        margin-bottom: 32px;
+        color: #ffffff;
+    } */
+/* put all the h3 classes together */
+.lead h3, .brand h3, .cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
 }
-/* changed benefits-cost into cost */
-.cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.lead h3 {
+/* .lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -114,9 +123,14 @@ p {
 .cost h3 {
     margin-bottom: 10px;
     text-align: center;
-}
-
-.lead img {
+} */
+/* put all images together, differentiated images as childred */
+/* .lead img, .brand img, .cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+} */
+/* .lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -129,6 +143,12 @@ p {
 }
 
 .cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+} */
+/* reworked the children properties into parent */
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
